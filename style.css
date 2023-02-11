@@ -1,0 +1,44 @@
+body {
+  background: #3b3b3b;
+}
+.wrapper {
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+  background: #fff;
+}
+h1 {
+  font-size: 30px;
+  color: #000000;
+  text-align: center;
+}
+.slider {
+  width: 250px;
+  height: auto;
+  border: 1px solid #fff;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 20px;
+  transition: all ease 1s;
+}
+.slider-line {
+  width: 1750px;
+  display: flex;
+  background: #1bbca4;
+  transition: all ease 1s;
+  position: relative;
+  left: 0;
+}
+img {
+  width: 250px;
+}
+.cont-btn {
+  width: 250px;
+  margin: 0 auto;
+}
+.back {
+  float: left;
+}
+.forward {
+  float: right;
+}
